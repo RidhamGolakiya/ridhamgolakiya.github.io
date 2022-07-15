@@ -1,0 +1,61 @@
+body {
+    overflow:hidden;
+}
+.top-wrapper {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font: 13px/20px 'Helvetica Neue',Arial,sans-serif;
+    padding: 5px;
+    bottom: 0;
+}
+.top-wrapper a {
+    color: #696A6B;
+    text-decoration:none;
+}
+.simple p
+{
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 640px;
+    margin: 0 auto;
+    font: 13px/20px 'Helvetica Neue',Arial,sans-serif;
+    color: #696A6B;
+}
+
+.simple
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.font-size1 {
+    font-size: 20px;
+    color: darkgrey;
+    position: absolute;
+    bottom: 0;
+}
+.social_icon:hover{
+    color: darkgrey;
+}
+
+
+#bg-canvas
+{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0; top:0;
+}
+
+.img{
+    width:5%;
+}
+
+@media (max-width: 320px){
+    .img{
+        width: 15%;
+    }
+}
